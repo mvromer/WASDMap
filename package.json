@@ -1,0 +1,144 @@
+{
+    "name": "wasdmap",
+    "displayName": "WASDMap",
+    "description": "Keyboard navigation, selection, and window splitting and navigation based on WASD.",
+    "version": "0.0.1",
+    "publisher": "mvromer",
+    "engines": {
+        "vscode": "^1.25.0"
+    },
+    "categories": [
+        "Keymaps"
+    ],
+    "keywords": [
+        "keymap",
+        "wasd",
+        "keyboard",
+        "window",
+        "navigation",
+        "splitting"
+    ],
+    "activationEvents": [
+        "onCommand:wasd.killLineToEnd"
+    ],
+    "main": "./out/extension",
+    "contributes": {
+        "commands": [
+            {
+                "command": "wasd.killLineToEnd",
+                "title": "Kill to End of Line"
+            }
+        ],
+        "keybindings": [
+            {
+                "key": "alt+w",
+                "command": "cursorUp",
+                "when": "textInputFocus"
+            },
+            {
+                "key": "alt+s",
+                "command": "cursorDown",
+                "when": "textInputFocus"
+            },
+            {
+                "key": "alt+a",
+                "command": "cursorLeft",
+                "when": "textInputFocus"
+            },
+            {
+                "key": "alt+d",
+                "command": "cursorRight",
+                "when": "textInputFocus"
+            },
+            {
+                "key": "alt+f",
+                "command": "cursorWordEndRight",
+                "when": "textInputFocus"
+            },
+            {
+                "key": "alt+b",
+                "command": "cursorWordStartLeft",
+                "when": "textInputFocus"
+            },
+            {
+                "key": "alt+n",
+                "command": "cursorPageDown",
+                "when": "textInputFocus"
+            },
+            {
+                "key": "alt+p",
+                "command": "cursorPageUp",
+                "when": "textInputFocus"
+            },
+            {
+                "key": "shift+alt+w",
+                "command": "cursorUpSelect",
+                "when": "textInputFocus"
+            },
+            {
+                "key": "shift+alt+s",
+                "command": "cursorDownSelect",
+                "when": "textInputFocus"
+            },
+            {
+                "key": "shift+alt+a",
+                "command": "cursorLeftSelect",
+                "when": "textInputFocus"
+            },
+            {
+                "key": "shift+alt+d",
+                "command": "cursorRightSelect",
+                "when": "textInputFocus"
+            },
+            {
+                "key": "shift+alt+f",
+                "command": "cursorWordEndRightSelect",
+                "when": "textInputFocus"
+            },
+            {
+                "key": "shift+alt+b",
+                "command": "cursorWordStartLeftSelect",
+                "when": "textInputFocus"
+            },
+            {
+                "key": "shift+alt+n",
+                "command": "cursorPageDownSelect",
+                "when": "textInputFocus"
+            },
+            {
+                "key": "shift+alt+p",
+                "command": "cursorPageUpSelect",
+                "when": "textInputFocus"
+            },
+            {
+                "key": "alt+j",
+                "command": "cursorHome",
+                "when": "textInputFocus"
+            },
+            {
+                "key": "alt+k",
+                "command": "cursorEnd",
+                "when": "textInputFocus"
+            },
+            {
+                "key": "shift+alt+k",
+                "command": "wasd.killLineToEnd",
+                "when": "textInputFocus"
+            }
+        ]
+    },
+    "scripts": {
+        "vscode:prepublish": "npm run compile",
+        "compile": "tsc -p ./",
+        "watch": "tsc -watch -p ./",
+        "postinstall": "node ./node_modules/vscode/bin/install",
+        "test": "npm run compile && node ./node_modules/vscode/bin/test"
+    },
+    "devDependencies": {
+        "typescript": "^2.6.1",
+        "vscode": "^1.1.6",
+        "tslint": "^5.8.0",
+        "@types/node": "^7.0.43",
+        "@types/mocha": "^2.2.42"
+    }
+}
