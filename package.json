@@ -124,6 +124,79 @@
                 "key": "shift+alt+k",
                 "command": "wasd.killLineToEnd",
                 "when": "textInputFocus"
+            },
+            {
+                "key": "shift+alt+k",
+                "command": "wasd.killLineToEnd",
+                "when": "textInputFocus"
+            },
+            {
+                "key": "ctrl+alt+w",
+                "command": "workbench.action.focusAboveGroup"
+            },
+            {
+                "key": "ctrl+alt+s",
+                "command": "workbench.action.focusBelowGroup"
+            },
+            {
+                "key": "ctrl+alt+a",
+                "command": "workbench.action.focusLeftGroup"
+            },
+            {
+                "key": "ctrl+alt+d",
+                "command": "workbench.action.focusRightGroup"
+            },
+            {
+                "key": "ctrl+k ctrl+alt+w",
+                "command": "workbench.action.newGroupAbove"
+            },
+            {
+                "key": "ctrl+k ctrl+alt+s",
+                "command": "workbench.action.newGroupBelow"
+            },
+            {
+                "key": "ctrl+k ctrl+alt+a",
+                "command": "workbench.action.newGroupLeft"
+            },
+            {
+                "key": "ctrl+k ctrl+alt+d",
+                "command": "workbench.action.newGroupRight"
+            },
+            {
+                "key": "ctrl+k alt+w",
+                "command": "workbench.action.splitEditorUp"
+            },
+            {
+                "key": "ctrl+k alt+s",
+                "command": "workbench.action.splitEditorDown"
+            },
+            {
+                "key": "ctrl+k alt+a",
+                "command": "workbench.action.splitEditorLeft"
+            },
+            {
+                "key": "ctrl+k alt+d",
+                "command": "workbench.action.splitEditorRight"
+            },
+            {
+                "key": "ctrl+k shift+alt+w",
+                "command": "workbench.action.moveEditorToAboveGroup"
+            },
+            {
+                "key": "ctrl+k shift+alt+s",
+                "command": "workbench.action.moveEditorToBelowGroup"
+            },
+            {
+                "key": "ctrl+k shift+alt+a",
+                "command": "workbench.action.moveEditorToLeftGroup"
+            },
+            {
+                "key": "ctrl+k shift+alt+d",
+                "command": "workbench.action.moveEditorToRightGroup"
+            },
+            {
+                "key": "ctrl+k ctrl+alt+e",
+                "command": "workbench.action.closeGroup"
             }
         ]
     },
