@@ -19,14 +19,14 @@
         "splitting"
     ],
     "activationEvents": [
-        "onCommand:wasd.killLineToEnd"
+        "onCommand:wasd.killLine"
     ],
     "main": "./out/extension",
     "contributes": {
         "commands": [
             {
-                "command": "wasd.killLineToEnd",
-                "title": "Kill to End of Line"
+                "command": "wasd.killLine",
+                "title": "Kill Line"
             }
         ],
         "keybindings": [
@@ -122,12 +122,7 @@
             },
             {
                 "key": "shift+alt+k",
-                "command": "wasd.killLineToEnd",
-                "when": "textInputFocus"
-            },
-            {
-                "key": "shift+alt+k",
-                "command": "wasd.killLineToEnd",
+                "command": "wasd.killLine",
                 "when": "textInputFocus"
             },
             {
