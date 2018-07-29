@@ -2,6 +2,10 @@
     "name": "wasdmap",
     "displayName": "WASDMap",
     "description": "Keyboard navigation, selection, and window splitting and navigation based on WASD.",
+    "repository": {
+        "type": "git",
+        "url": "https://github.com/mvromer/WASDMap"
+    },
     "version": "0.0.1",
     "publisher": "mvromer",
     "engines": {
@@ -13,7 +17,6 @@
     "keywords": [
         "keymap",
         "wasd",
-        "keyboard",
         "window",
         "navigation",
         "splitting"
