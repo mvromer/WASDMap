@@ -69,6 +69,13 @@ The following shortcuts are for navigating between different editor groups that 
 | `Ctrl+Alt+S` | Focus on editor group to the right of the active group |
 | `Ctrl+Alt+D` | Focus on editor group below the active group |
 
+When the terminal has focus, the last two shortcuts have a slightly different function.
+
+| Shortcut | Action |
+|-----------|--------|
+| `Ctrl+Alt+A` | Cycle to the previous terminal in the list of open terminals |
+| `Ctrl+Alt+D` | Cycle to the next terminal in the list of open terminals |
+
 ### New Editor Group Creation
 The following shortcuts are for creating new editor groups within the editor.
 

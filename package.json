@@ -145,6 +145,16 @@
                 "command": "workbench.action.focusRightGroup"
             },
             {
+                "key": "ctrl+alt+a",
+                "command": "workbench.action.terminal.focusPrevious",
+                "when": "terminalFocus"
+            },
+            {
+                "key": "ctrl+alt+d",
+                "command": "workbench.action.terminal.focusNext",
+                "when": "terminalFocus"
+            },
+            {
                 "key": "ctrl+k ctrl+alt+w",
                 "command": "workbench.action.newGroupAbove"
             },
