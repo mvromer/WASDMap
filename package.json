@@ -6,7 +6,7 @@
         "type": "git",
         "url": "https://github.com/mvromer/WASDMap"
     },
-    "version": "0.0.1",
+    "version": "0.1.0",
     "publisher": "mvromer",
     "engines": {
         "vscode": "^1.25.0"
